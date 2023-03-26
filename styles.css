@@ -13,7 +13,7 @@ body{
 } 
 
 .all {
-    height: 50vh;
+    height: 55vh;
     width: 25%;
     margin-top: 8rem;
     background-color:  hsl(216, 12%, 8%);
@@ -48,12 +48,16 @@ body{
 .one {
     background-color: hsl(213, 19%, 18%);
     color:hsl(216, 12%, 54%);
-    border-radius: 4rem;
+    border-radius: 5rem;
     font-size: 12px;
     padding: 0.8rem;
     margin-right: 1rem;
     border: none;
+}
 
+.one:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:white;
 }
 
 .submit{
@@ -70,6 +74,10 @@ body{
     background-color: hsl(216, 12%, 8%);
     color:hsl(25, 97%, 53%);
     border: 1px solid hsl(216, 12%, 54%);
+}
+
+.thanks {
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {

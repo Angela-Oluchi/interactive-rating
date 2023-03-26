@@ -21,17 +21,27 @@
             <p class="info">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
         </div>
 
-        <div class="number">
-            <button class="one">1</button>
-            <button class="one">2</button>
-            <button class="one">3</button>
-            <button class="one">4</button>
-            <button class="one">5</button>
+        <div class="number" name="btnclick">
+            <button class="one" onclick="validonebtn()" name="one">1</button>
+            <button class="one"  name="two">2</button>
+            <button class="one"  name="three">3</button>
+            <button class="one"  name="four">4</button>
+            <button class="one"  name="five">5</button>
         </div>
 
         <div class="">
-            <button class="submit">SUBMIT</button>
+            <button class="submit" onclick="validbtn()">SUBMIT</button>
+        </div>
+
+        <div class="thanks" id="thanks">
+            <img src="./images/illustration-thank-you.svg" alt="">
+            <p>you selected 1 of 5</p>
+            <h3>Thank You</h3>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support,dont hesitate to get in touch!</p>
         </div>
     </div>
+
+
+    <script src="app.js"></script>
 </body>
 </html>
